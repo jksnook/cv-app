@@ -1,10 +1,11 @@
+import Education from "./Education"
 import GeneralInfo from "./GeneralInfo"
 
 function App () {
   return(
     <div>
       <GeneralInfo />
-      {/* <Education /> */}
+      <Education />
       {/* <Experience /> */}
     </div>
   )  

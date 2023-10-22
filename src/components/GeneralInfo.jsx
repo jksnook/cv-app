@@ -13,6 +13,7 @@ function GeneralInfo () {
   if (submitted) {
     return (
       <div>
+        <h2>General Info</h2>
         <ul>
           <li>{firstName}</li>
           <li>{lastName}</li>
@@ -23,7 +24,8 @@ function GeneralInfo () {
     );
   }
 
-  function handleSubmit () {
+  function handleSubmit (e) {
+    e.preventDefault();
     setSubmitted(true);
   }
 
