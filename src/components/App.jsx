@@ -1,3 +1,4 @@
+import Experience from "./Experience"
 import Education from "./Education"
 import GeneralInfo from "./GeneralInfo"
 
@@ -6,7 +7,7 @@ function App () {
     <div>
       <GeneralInfo />
       <Education />
-      {/* <Experience /> */}
+      <Experience />
     </div>
   )  
 }
