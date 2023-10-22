@@ -15,9 +15,9 @@ function Education () {
       <div>
         <h2>Education</h2>
         <ul>
-          <li>{school}</li>
-          <li>{major}</li>
-          <li>{date ? (date.getUTCMonth() + 1) + '/' + date.getUTCDate() + '/' + date.getUTCFullYear() : ""}</li>
+          <li>School: {school}</li>
+          <li>Major: {major}</li>
+          <li>Graduation Date: {date ? (date.getUTCMonth() + 1) + '/' + date.getUTCDate() + '/' + date.getUTCFullYear() : ""}</li>
         </ul>
         <button type="button" onClick={handleEdit}>Edit</button>
       </div>

@@ -15,9 +15,9 @@ function GeneralInfo () {
       <div>
         <h2>General Info</h2>
         <ul>
-          <li>{firstName}</li>
-          <li>{lastName}</li>
-          <li>{email}</li>
+          <li>First Name: {firstName}</li>
+          <li>Last Name: {lastName}</li>
+          <li>Email: {email}</li>
         </ul>
         <button type="button" onClick={handleEdit}>Edit</button>
       </div>

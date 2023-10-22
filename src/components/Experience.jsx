@@ -17,7 +17,7 @@ function Experience () {
   }
 
   return (
-    <div>
+    <div className="experience-container">
       <ol>
         {experiences.map((exp) => 
           <li key={exp.id}>
